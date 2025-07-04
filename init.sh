@@ -7,6 +7,6 @@ echo cloning retronomicon
 
 git clone git@github.com:rithgroove/retronomicon.git retronomicon
 cd ./retronomicon
-./init.sh
+USE_LUA=ON USE_PYTHON=ON  ./init.sh
 cd ..
 

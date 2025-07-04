@@ -1,1 +1,1 @@
-rm -R external
+rm -f -R external

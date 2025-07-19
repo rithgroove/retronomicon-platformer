@@ -1,7 +1,7 @@
 #include "platformer_physics_system.h"
 #include <algorithm>
 
-namespace retronomicon::platformer::lib::core::system {
+namespace retronomicon::platformer::lib::physics {
 
 void PlatformerPhysicsSystem::integrate(float dt)
 {

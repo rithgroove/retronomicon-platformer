@@ -1,13 +1,13 @@
 #pragma once
 #include <vector>
-#include "retronomicon/lib/core/system/physics_system.h"
+#include "retronomicon/lib/physics/physics_system.h"
 
-namespace retronomicon::platformer::lib::core::system {
+namespace retronomicon::platformer::lib::physics {
 
 /**
  * Platformer-specific 2D physics system.
  */
-class PlatformerPhysicsSystem final : public retronomicon::lib::core::system::PhysicsSystem
+class PlatformerPhysicsSystem final : public retronomicon::lib::physics::PhysicsSystem
 {
 public:
     PlatformerPhysicsSystem() = default;
